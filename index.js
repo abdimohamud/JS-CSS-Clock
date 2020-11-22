@@ -24,7 +24,7 @@ function setDate() {
   secondHand.style.transform = `rotate(${secondDegree}deg)`;
   minuteHand.style.transform = `rotate(${minuteDegree}deg)`;
   hourHand.style.transform = `rotate(${hourDegree}deg)`;
-  time.textContent = `${hourrr - 12}:${minutess}:${secondss} ${daytime}`;
+  time.textContent = `${hourrr - 12}:${minutess}:${secondss} ${daytime} `;
 
   if (secondDegree === 90) {
     secondHand.style.transition = "all 0s";
